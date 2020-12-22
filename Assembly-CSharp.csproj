@@ -62,10 +62,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Ball.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Goal.cs" />
-    <Compile Include="Assets\Scripts\Paddle.cs" />
+    <Compile Include="Assets\Scripts\Old\BallOld.cs" />
+    <Compile Include="Assets\Scripts\Old\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Old\GoalOld.cs" />
+    <Compile Include="Assets\Scripts\Old\PlayerOld.cs" />
+    <Compile Include="Assets\Scripts\PongBall.cs" />
+    <Compile Include="Assets\Scripts\PongGoal.cs" />
+    <Compile Include="Assets\Scripts\PongNetworkManager.cs" />
+    <Compile Include="Assets\Scripts\PongPlayer.cs" />
+    <Compile Include="Assets\Scripts\UpdateUI.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
